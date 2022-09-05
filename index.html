@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="220825.js" defer></script>
+    <link rel="stylesheet" href="220825.css">
+    <title>Etch</title>
+</head>
+<body>
+    <div class="page">
+        <div class="select">
+            <input type="text" placeholder="Type the Size" oninput="changeSize(this.value)" />
+        </div>
+        <div class="buttons">
+            <button onclick="changeColor('rainbow')">RAINBOW</button>
+            <button onclick="changeColor('opacity')">SHADES</button>
+            <button onclick="changeColor('white')">WHITE</button>
+            <button onclick="changeColor('rosybrown')">ERASE</button>
+            <button onclick="reset()">RESET</button>
+        </div>
+        <div class="board"></div>    
+    </div>
+</body>
+</html>

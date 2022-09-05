@@ -1,0 +1,36 @@
+body {
+    background-color:antiquewhite;
+}
+
+input {
+    display: block;
+    margin: 30px auto 0 auto;
+    border: 1px solid rosybrown;
+    padding: 5px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+.buttons > button {
+    padding: 7px;
+    margin: 15px;
+    border: 1px dotted;
+    border-radius: 5px;
+    background-color:rosybrown;
+    color:white;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    border: 1px rosybrown solid;
+    display: grid;
+    margin: 10px auto 0 auto;
+    border-radius: 3px;
+}
